@@ -1,8 +1,51 @@
 body{
-  font-size: 36px;
+  font-size: 16px;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   max-width: 800px;
-  background-color: black;
-  color: white;
-  margin: 60px;
+  background-color: #333333;
+  color: lightyellow;
+  margin: 60px auto;
+}
+
+h1, h2{
+  text-align: center;
+  margin: 20px;
+}
+
+a{
+  color: lightblue;
+}
+
+table{
+  width: 100%;
+}
+
+th, .table-header{
+  font-size: 18px;
+  color: salmon;
+  text-align: center;
+  padding: 10px;
+}
+
+td{
+  font-size: 12px;
+  padding: 10px;
+}
+
+iframe{
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px){
+  body{
+    background-color: salmon;
+  }
+}
+
+#profilepic{
+  width: 80px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 12px grey;
+  opacity: 0.6;
 }

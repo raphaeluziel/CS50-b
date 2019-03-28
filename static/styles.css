@@ -39,9 +39,15 @@ iframe{
   margin: 0 auto;
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
   body{
-    background-color: blue;
+    font-size: 0.9em;
+  }
+  th, .table-header{
+    font-size: 0.9em;
+  }
+  td{
+    font-size: 0.8em;
   }
 }
 

@@ -18,18 +18,20 @@ a{
 
 table{
   width: 100%;
+  table-layout: fixed;
 }
 
 th, .table-header{
   font-size: 18px;
   color: salmon;
-  text-align: center;
   padding: 10px;
+  border-bottom: 1px solid salmon;
 }
 
 td{
   font-size: 12px;
   padding: 10px;
+  border-bottom: 1px solid salmon;
 }
 
 iframe{
@@ -37,9 +39,15 @@ iframe{
   margin: 0 auto;
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
   body{
-    background-color: salmon;
+    font-size: 0.9em;
+  }
+  th, .table-header{
+    font-size: 0.9em;
+  }
+  td{
+    font-size: 0.8em;
   }
 }
 

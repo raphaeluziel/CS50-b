@@ -41,13 +41,7 @@ iframe{
 
 @media (max-width: 800px){
   body{
-    font-size: 0.9em;
-  }
-  th, .table-header{
-    font-size: 0.9em;
-  }
-  td{
-    font-size: 0.8em;
+    margin: 10px;
   }
 }
 

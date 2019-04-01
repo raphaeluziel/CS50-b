@@ -51,6 +51,21 @@ iframe{
   }
 }
 
+.animationImages{
+  text-align: center;
+}
+
+.animationImages img{
+  width: 246px;
+  margin: 8px;
+  border-radius: 2px;
+  border: 2px solid salmon;
+}
+
+.animationImages img:hover{
+  border: 8px solid yellow;
+}
+
 #profilepic{
   width: 80px;
   border-radius: 3px;

@@ -51,6 +51,10 @@ iframe{
   }
 }
 
+.animationImages img{
+  border: 20px solid red;
+}
+
 #profilepic{
   width: 80px;
   border-radius: 3px;

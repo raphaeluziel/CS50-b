@@ -41,18 +41,33 @@ iframe{
 
 @media (max-width: 800px){
   body{
-    font-size: 0.9em;
-  }
-  th, .table-header{
-    font-size: 0.9em;
-  }
-  td{
-    font-size: 0.8em;
+    margin: 20px;
   }
 }
 
+.animationImages{
+  text-align: center;
+}
+
 .animationImages img{
-  border: 20px solid red;
+  width: 246px;
+  margin: 8px;
+  border-radius: 2px;
+  border: 2px solid salmon;
+}
+
+.animationImages img:hover{
+  border: 8px solid yellow;
+}
+
+.codingTiles{
+
+}
+
+.codingTiles img{
+  border: 8px outset lightgray;
+  border-radius: 4px;
+  width: 100%;
 }
 
 #profilepic{

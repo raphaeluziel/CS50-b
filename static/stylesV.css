@@ -2,8 +2,8 @@ body {
   font-size: 16px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   max-width: 800px;
-  background-color: #9999ff;
-  color: lightyellow;
+  background-color: #333333;
+  color: #ffffe0;
   margin: 60px auto;
 }
 
@@ -44,19 +44,25 @@ iframe {
     margin: 20px;
   }
 }
-.animationImages {
-  text-align: center;
-}
-
-.animationImages img {
+.codingTiles, .animationImages img {
   width: 246px;
   margin: 8px;
   border-radius: 2px;
   border: 2px solid salmon;
 }
 
+.animationImages {
+  text-align: center;
+}
+
 .animationImages img:hover {
   border: 8px solid yellow;
+}
+
+.codingTiles img {
+  border: 8px outset lightgray;
+  border-radius: 4px;
+  width: 100%;
 }
 
 #profilepic {

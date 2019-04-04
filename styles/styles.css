@@ -1,10 +1,11 @@
 body {
   font-size: 16px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  max-width: 800px;
+  max-width: 1000px;
   background-color: #333333;
-  color: #ffffe0;
+  color: lightyellow;
   margin: 60px auto;
+  padding: 0px 10px;
 }
 
 h1, h2 {
@@ -23,7 +24,7 @@ table {
 
 th, .table-header {
   font-size: 18px;
-  color: salmon;
+  color: accent-color;
   padding: 10px;
   border-bottom: 1px solid salmon;
 }
@@ -39,14 +40,17 @@ iframe {
   margin: 0 auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   body {
     margin: 20px;
   }
+
+  table {
+    width: 1000px;
+  }
 }
-.codingTiles, .animationImages img {
-  width: 246px;
-  margin: 8px;
+.codingTiles img, .animationImages img {
+  margin: 14px;
   border-radius: 2px;
   border: 2px solid salmon;
 }
@@ -55,14 +59,25 @@ iframe {
   text-align: center;
 }
 
+.animationImages img {
+  width: 246px;
+}
+
 .animationImages img:hover {
-  border: 8px solid yellow;
+  border: 8px solid lightblue;
+}
+
+.codingTiles {
+  display: flex;
+  align-items: center;
 }
 
 .codingTiles img {
-  border: 8px outset lightgray;
-  border-radius: 4px;
-  width: 100%;
+  width: 400px;
+}
+
+.codingTiles img:hover {
+  border: 8px solid lightblue;
 }
 
 #profilepic {
@@ -72,4 +87,4 @@ iframe {
   opacity: 0.6;
 }
 
-/*# sourceMappingURL=stylesV.css.map */
+/*# sourceMappingURL=styles.css.map */

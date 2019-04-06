@@ -58,10 +58,6 @@ iframe {
   table {
     width: 1000px;
   }
-
-  .codingTiles img {
-    width: 10px;
-  }
 }
 .codingTiles img, .animationImages img {
   margin: 14px;
@@ -87,7 +83,7 @@ iframe {
 }
 
 .codingTiles img {
-  width: 60%;
+  width: 90%;
 }
 
 .codingTiles img:hover {

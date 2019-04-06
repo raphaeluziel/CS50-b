@@ -52,6 +52,9 @@ iframe{
   table{
     width: 1000px;
   }
+  .codingTiles img{
+    width: 10px;
+  }
 }
 
 %images{
@@ -80,7 +83,7 @@ iframe{
 
 .codingTiles img{
   @extend %images;
-  width: 400px;
+  width: 800px;
 }
 
 .codingTiles img:hover{

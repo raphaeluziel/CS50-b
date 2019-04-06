@@ -49,6 +49,7 @@ iframe {
     width: 1000px;
   }
 }
+
 .codingTiles img, .animationImages img {
   margin: 14px;
   border-radius: 2px;
@@ -73,7 +74,7 @@ iframe {
 }
 
 .codingTiles img {
-  width: 400px;
+  width: 360px;
 }
 
 .codingTiles img:hover {

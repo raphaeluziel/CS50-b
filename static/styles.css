@@ -35,6 +35,16 @@ td {
   border-bottom: 1px solid salmon;
 }
 
+.era {
+  color: lightblue;
+}
+.era ul {
+  color: salmon;
+}
+.era ul ul {
+  color: #bbffbb;
+}
+
 iframe {
   display: block;
   margin: 0 auto;
@@ -48,8 +58,11 @@ iframe {
   table {
     width: 1000px;
   }
-}
 
+  .codingTiles img {
+    width: 10px;
+  }
+}
 .codingTiles img, .animationImages img {
   margin: 14px;
   border-radius: 2px;
@@ -74,7 +87,7 @@ iframe {
 }
 
 .codingTiles img {
-  width: 360px;
+  width: 800px;
 }
 
 .codingTiles img:hover {
@@ -85,6 +98,38 @@ iframe {
   width: 80px;
   border-radius: 8px;
   opacity: 0.6;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+  margin: 0px 10px 0px 10px;
+}
+
+.github {
+  width: 80px;
+  height: auto;
+  margin: 0px 10px 0px 10px;
+}
+
+.wide_logo {
+  width: 100px;
+  height: auto;
+  margin: 0px 10px 0px 10px;
+}
+
+footer {
+  font-size: small;
+  text-align: center;
+  opacity: 0.4;
 }
 
 /*# sourceMappingURL=styles.css.map */

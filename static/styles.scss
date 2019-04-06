@@ -40,6 +40,16 @@ td{
   border-bottom: 1px solid salmon;
 }
 
+.era{
+  color: lightblue;
+  ul{
+    color: $accent-color;
+    ul{
+      color: #bbffbb;
+    }
+  }
+}
+
 iframe{
   display: block;
   margin: 0 auto;
@@ -94,4 +104,36 @@ iframe{
   width: 80px;
   border-radius: 8px;
   opacity: 0.6;
+}
+
+.contacts{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.logo{
+  width: 40px;
+  height: auto;
+  margin: 0px 10px 0px 10px;
+}
+
+.github{
+  width: 80px;
+  height: auto;
+  margin: 0px 10px 0px 10px;
+}
+
+.wide_logo{
+  width: 100px;
+  height: auto;
+  margin: 0px 10px 0px 10px;
+}
+
+footer{
+  font-size: small;
+  text-align: center;
+  opacity: 0.4;
 }

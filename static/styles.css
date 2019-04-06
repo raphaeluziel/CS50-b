@@ -4,7 +4,7 @@ body {
   max-width: 1000px;
   background-color: #333333;
   color: lightyellow;
-  margin: 60px auto;
+  margin: 40px auto;
   padding: 0px 10px;
 }
 
@@ -82,8 +82,7 @@ iframe {
 
 #profilepic {
   width: 80px;
-  border-radius: 3px;
-  box-shadow: 3px 3px 12px grey;
+  border-radius: 8px;
   opacity: 0.6;
 }
 
